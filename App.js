@@ -13,6 +13,8 @@ import QRManagement from './components/QRManagement';
 import StationManagement from './components/StationManagement';
 import TopupApproval from './components/TopupApproval';
 import UserManagement from './components/UserManagement';
+import Addqrcode from './components/Addqrcode';  // Import Addqrcode component
+import Manageqrcode from './components/Manageqrcode';  // Import Manageqrcode component
 import './styles/App.css';
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path="/add-announcement" element={<AddAnnouncement />} />
         <Route path="/manage-announcements" element={<ManageAnnouncements />} />
         <Route path="/qr-management" element={<QRManagement />} />
+        <Route path="/add-qr" element={<Addqrcode />} />  {/* Route for Addqrcode */}
+        <Route path="/manage-qr" element={<Manageqrcode />} />  {/* Route for Manageqrcode */}
         <Route path="/station-management" element={<StationManagement />} />
         <Route path="/logout" element={<Logout />} />
       </Routes>

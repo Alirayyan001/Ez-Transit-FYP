@@ -108,6 +108,8 @@ const Pending = () => {
             <p><strong>Status:</strong> {topup.status}</p>
             <p><strong>Account Type:</strong> {topup.accountType}</p>
             <p><strong>Account Number:</strong> {topup.accountNumber}</p>
+            <p><strong>Transaction ID:</strong> {topup.transactionId}</p>
+
             <div className="action-buttons">
               <button 
                 className="approve-button" 
